@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/mainRelativeLayout"
+    tools:context=".activities.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:layout_toLeftOf="@+id/lets_stalk"
+        android:layout_toStartOf="@+id/lets_stalk"
+        android:hint="@string/student_id"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lets_stalk"
+        android:text="@string/go"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prevent_form_text"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prevent_form_text"
+        android:id="@+id/do_it_button"
+        android:layout_below="@+id/sign_plus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/shuffle"
+        android:layout_alignEnd="@+id/shuffle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_plus"
+        android:id="@+id/sign_plus"
+        android:layout_below="@+id/editText"
+        android:layout_toLeftOf="@+id/shuffle"
+        android:layout_toStartOf="@+id/shuffle" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_minus"
+        android:id="@+id/sign_minus"
+        android:layout_above="@+id/do_it_button"
+        android:layout_toRightOf="@+id/prevent_form_text"
+        android:layout_toEndOf="@+id/prevent_form_text" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shuffle"
+        android:id="@+id/shuffle"
+        android:layout_above="@+id/do_it_button"
+        android:layout_toLeftOf="@+id/lets_stalk"
+        android:layout_toStartOf="@+id/lets_stalk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/i_wanna_stalk"
+        android:id="@+id/i_wanna_stalk"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

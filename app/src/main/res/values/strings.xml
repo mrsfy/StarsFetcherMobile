@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Star Fetcher Mobile</string>
+
+    <string name="student_id">Student ID</string>
+
+    <string name="student_image">Student image</string>
+
+    <string name="go">Go</string>
+
+    <string name="i_wanna_stalk">I wanna stalk...</string>
+
+    <string name="prevent_form_text">Prevent your photo from displaying</string>
+
+    <string name="shuffle">Shuffle</string>
+
+    <string name="sign_minus">-</string>
+
+    <string name="sign_plus">+</string>
+</resources>
