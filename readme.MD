@@ -3,8 +3,8 @@ An unofficial Android application of Stars Fetcher which makes it able to see ID
 
 
 ## Images of application
-![Main Activity](assets/MainActivity.png?raw=true "Main Activity")
-![Image Activity](assets/ImageActivity.png?raw=true "Image Activity")
+![Main Activity](assets/MainActivity.PNG?raw=true "Main Activity")
+![Image Activity](assets/ImageActivity.PNG?raw=true "Image Activity")
 
 
 ### Contributing
